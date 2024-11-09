@@ -1,0 +1,87 @@
+/* Basic Styling */
+body {
+  font-family: Arial, sans-serif;
+  margin: 0;
+  padding: 0;
+  background-color: #0e0e0e; /* Dark background */
+  color: #ffffff; /* White text */
+  text-align: center;
+}
+
+/* Header Styling */
+header {
+  background-color: #1a1a1a; /* Dark gray */
+  color: #ffffff; /* White text */
+  padding: 20px;
+  font-size: 1.5em;
+}
+
+/* Main Section Styling */
+main {
+  padding: 20px;
+}
+
+h1 {
+  color: #ff9900; /* Orange */
+  font-size: 2em;
+  margin-top: 20px;
+}
+
+p {
+  font-size: 1.2em;
+  margin: 10px 0;
+  color: #cccccc; /* Light gray for paragraphs */
+}
+
+/* Product Section Styling */
+.product {
+  display: inline-block;
+  width: 250px;
+  margin: 15px;
+  padding: 15px;
+  background-color: #1a1a1a; /* Dark gray */
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.3);
+  border-radius: 8px;
+}
+
+.product img {
+  width: 100%;
+  border-radius: 8px;
+}
+
+.product h3 {
+  font-size: 1.5em;
+  color: #ff9900; /* Orange */
+  margin: 10px 0;
+}
+
+.product p {
+  font-size: 1em;
+  color: #cccccc; /* Light gray */
+}
+
+/* Button Styling */
+button {
+  background-color: #ff9900; /* Orange */
+  color: #ffffff; /* White text */
+  border: none;
+  padding: 10px 20px;
+  font-size: 1em;
+  border-radius: 5px;
+  cursor: pointer;
+}
+
+button:hover {
+  background-color: #e68a00; /* Darker orange */
+}
+
+/* Footer Styling */
+footer {
+  background-color: #1a1a1a; /* Dark gray */
+  color: #ffffff; /* White text */
+  padding: 10px;
+  font-size: 0.9em;
+  position: relative;
+  bottom: 0;
+  width: 100%;
+}
